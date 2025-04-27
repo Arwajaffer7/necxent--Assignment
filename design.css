@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    margin-top: 20px;
+    position: sticky;
+    
+    background-color: rgb(47, 47, 110);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 0px black;
+
+}
+.logo{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: beige;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+     ul li  :hover{
+        
+        transform: scale(1.2);
+        color:red;
+        transform: rotate(20deg);
+
+    }
+    
+    
+
+
+nav ul{
+    display: flex;
+    padding-right: 10px;
+    
+    list-style: none;
+    float: right;
+    
+    
+}
+ul li{
+    font-style: oblique;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-right: 30px;
+    color: white;
+    
+}
+li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+button{
+    padding: 5px;
+    
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(12, 109, 12);
+    cursor: pointer;
+}
+.box{
+    
+    width: 100%;
+    height: 500px;
+    background-color: rgb(177, 204, 212);
+}
+.image img{
+    float: right;
+
+}
+h1{
+    
+    font-size: 50px;
+    padding-left: 30px;
+    
+    
+    
+}
+p{
+    padding-left: 30px;
+} 
+.box > button{
+    background-color: green;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+.box2{
+    width: 100%;
+    text-align: center;
+}
+.head{
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+    padding: 30px;
+}
+.head h2{
+    margin-top: 20px;
+}
+
+.head p{
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    
+    float: right;
+    font-family: sans-serif;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-top: 30px;
+    
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card3{
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(230, 241, 241);
+    padding: 20px;
+}
+.heading33 > p{
+    padding: 10px;
+    
+}
+.counts img{
+    margin-top: 20px;
+
+}
+.icons{
+    width: 100%;
+    height: 200px;
+    background-color: darkslategray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
